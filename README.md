@@ -11,7 +11,7 @@ npm i itype --save
 ## How to use?
 
 ```js
-var type = require('itype');
+var itype = require('itype');
 
 console.og(itype.string('hello'))
 //true
