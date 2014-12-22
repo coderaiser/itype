@@ -13,13 +13,13 @@ npm i itype --save
 ```js
 var type = require('itype');
 
-console.og(type.string('hello'))
+console.og(itype.string('hello'))
 //true
 
-console.log(type('world'));
+console.log(itype('world'));
 //string
 
-console.log(type.array('hi'));
+console.log(itype.array('hi'));
 // false
 
 ```
