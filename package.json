@@ -1,0 +1,15 @@
+{
+  "name": "itype",
+  "version": "1.0.0",
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+  "description": "Improved type check",
+  "main": "lib/itype.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/itype.git"
+  },
+  "keywords": [
+    "type"
+  ],
+  "license": "MIT"
+}
