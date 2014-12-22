@@ -1,4 +1,4 @@
-# IType
+# iType
 
 Improved type check.
 
@@ -14,13 +14,16 @@ npm i itype --save
 var itype = require('itype');
 
 console.og(itype.string('hello'))
-//true
+// returns
+true
 
 console.log(itype('world'));
-//string
+// returns
+'string'
 
-console.log(itype.array('hi'));
-// false
+console.log(itype.array([1, 2]));
+// returns
+true
 
 ```
 
