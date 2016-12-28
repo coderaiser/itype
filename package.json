@@ -1,6 +1,6 @@
 {
   "name": "itype",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Improved type check",
   "main": "lib/itype.js",
@@ -36,8 +36,7 @@
     "6to5": "buble lib -o legacy/lib",
     "legacy:index": "echo \"module.exports = require('./lib/itype');\" > legacy/index.js"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "license": "MIT",
   "devDependencies": {
     "browserify": "^13.0.0",
