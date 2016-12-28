@@ -1,7 +1,7 @@
 {
   "name": "itype",
   "description": "Improved type check",
-  "main": "dist/itype.min.js",
+  "main": "dist/itype.js",
   "authors": [
     "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)"
   ],
