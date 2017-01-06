@@ -9,7 +9,7 @@ test('itype', (t) => {
 });
 
 test('itype.array', (t) => {
-    t.equal(itype.array([]), 'array', 'should return array');
+    t.ok(itype.array([]), 'should return array');
     t.end();
 });
 
