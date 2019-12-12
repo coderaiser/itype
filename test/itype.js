@@ -33,3 +33,23 @@ test('itype.boolean: false', (t) => {
     t.end();
 });
 
+
+test('itype.undefined: true', (t) => {
+    t.ok(itype.undefined(undefined), 'should return true');
+    t.end();
+});
+
+test('itype.undefined: false', (t) => {
+    t.notOk(itype.undefined(null), 'should return false');
+    t.end();
+});
+
+test('itype.null: true', (t) => {
+    t.ok(itype.null(null), 'should return true');
+    t.end();
+});
+
+test('itype.null: false', (t) => {
+    t.notOk(itype.null(undefined), 'should return false');
+    t.end();
+});
