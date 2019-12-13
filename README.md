@@ -26,14 +26,6 @@ console.log(itype.array([1, 2]));
 true
 ```
 
-## Environments
-
-In old `node.js` environments that not fully supports `es2015`, `itype` could be used with:
-
-```js
-var itype = require('itype/legacy');
-```
-
 ## License
 
 MIT
