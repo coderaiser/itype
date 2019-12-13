@@ -1,6 +1,6 @@
 'use strict';
 
-const test = require('tape');
+const test = require('supertape');
 const itype = require('..');
 
 test('itype', (t) => {
@@ -32,7 +32,6 @@ test('itype.boolean: false', (t) => {
     t.notOk(itype.boolean(), 'should return false');
     t.end();
 });
-
 
 test('itype.undefined: true', (t) => {
     t.ok(itype.undefined(undefined), 'should return true');
