@@ -31,7 +31,7 @@
   "dependencies": {},
   "license": "MIT",
   "devDependencies": {
-    "coveralls": "^2.11.9",
+    "coveralls": "^3.0.9",
     "eslint": "^3.10.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-putout": "^3.0.0",
@@ -39,8 +39,6 @@
     "nodemon": "^1.11.0",
     "nyc": "^10.0.0",
     "putout": "^7.3.1",
-    "redrun": "^5.0.1",
-    "supertape": "^1.2.3",
-    "tape": "^4.5.1"
+    "supertape": "^1.2.3"
   }
 }
